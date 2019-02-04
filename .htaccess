@@ -1,0 +1,6 @@
+ErrorDocument 404 /themes/discord/templates/404/index.php
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+RewriteRule ^api/v6/experiments/?$ /api/experiments.php [NC,L]
+RewriteRule ^login/?$ /themes/discord/templates/home/login.php [NC,L]
+</IfModule>
