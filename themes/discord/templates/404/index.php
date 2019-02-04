@@ -29,9 +29,9 @@
   </noscript>
   <!-- End Google Tag Manager (noscript) -->
   <div id="app-mount"><div style="height:100%" data-reactroot=""><div style="flex-shrink:1;flex-grow:1;flex-basis:auto" class="flex-1xMQg5 flexHorizontal-1YWL8b flexJustifyCenter-XyJP9E flexAlignCenter-2tn6as flexWrap-1K8nA- pageWrap-3Cdu2c"><div class="textSection-VxrDfG"><div class="glitchWrapper-209Ebg"><div class="glitch-1ZnYvx" data-text="404">404</div></div><h4 class="margin-top-8 margin-bottom-8 wizards-3zNz6o weightBold-13i9Oz">Magos atrás de cortinas?</h4><div class="suggestionText-WBoeJA weightLight-1eftia">Que coisa mais 1939. Na verdade, o Discord funciona com hamsters robôs quânticos. As maravilhas da tecnologia, né? Enfim, parece que você virou errado em algum lugar. Toma aqui algumas sugestões de páginas.</div><ul class="linksSection-rDqBb7"><li><a class="links-1CveUN" href="//status.discordapp.com">Página de estado</a></li><li><a class="links-1CveUN" href="https://twitter.com/discordapp">@DiscordApp</a></li><li><a class="links-1CveUN" href="//support.discordapp.com/hc/en-us">Suporte</a></li></ul></div><div class="animationWrapper-1yY3HG"><img alt="" src="/assets/de8a0154caed99dfe6a5a5a35e4c4c11.svg" class="button-3NdtpP"/></div><div class="logoWrap-3RJf9q"><a href="/"><img alt="Início" class="logo-2xgWxt" src="/assets/a72f391b6469dda5077b1de1fcc4d18f.svg"/></a></div></div></div></div><script type="text/javascript" nonce="MTk4LDQ2LDI2LDksMTI1LDExMCwyNiwxODM=">window.ASYNC_COMPONENTS_STATE = {"resolved":{}};</script><script nonce="MTk4LDQ2LDI2LDksMTI1LDExMCwyNiwxODM=">window.GLOBAL_ENV = {
-        API_ENDPOINT: '//discordapp.com/api',
-        WEBAPP_ENDPOINT: '//discordapp.com',
-        MARKETING_ENDPOINT: '//discordapp.com',
+        API_ENDPOINT: '//http://201.67.221.160/api',
+        WEBAPP_ENDPOINT: '//201.67.221.160m',
+        MARKETING_ENDPOINT: '//201.67.221.160',
         CDN_HOST: 'cdn.discordapp.com',
       };</script><script src="/assets/5ddec4a4d50f4a4623fa.js"></script><script src="/assets/e75eeb553d953dc4e555.js"></script><script src="/assets/24268812a8226c1558e8.js"></script></body>
 </html>
