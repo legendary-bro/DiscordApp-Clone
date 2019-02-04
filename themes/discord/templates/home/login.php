@@ -39,7 +39,7 @@
 
 <script type="text/javascript">
     $("#entrar").click(function(){
-        alert("Clicou entrar");
+        console.log("clicou entrar");
         return false;
     });
 </script>
