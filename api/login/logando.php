@@ -2,4 +2,4 @@
 header('Content-Type: application/json');
 
 header("HTTP/1.1 200 OK");
-echo '{"token": "MzUzNDM4MDM4NTM5MzcwNDk3.Dzn3FA.6ygAYIn_THS5Ml4T5Nk793CjQso"}';
+echo '{"token": "MzU1MDU2NjU0NDk4MTM2MDY0.DzoR0Q.5Gk6XgUfCs_2VacIksWrwye_jCc"}';
