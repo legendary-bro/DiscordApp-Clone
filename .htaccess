@@ -9,4 +9,5 @@ RewriteRule ^api/v6/gateway/?$ /api/login/gateway.php [NC,L]
 RewriteRule ^login/?$ /themes/discord/templates/home/login.php [NC,L]
 RewriteRule ^register/?$ /themes/discord/templates/home/register.php [NC,L]
 RewriteRule ^activity/?$ /themes/discord/templates/home/login.php [NC,L]
+RewriteRule ^channels/(.*)$ /themes/discord/templates/home/login.php [L]
 </IfModule>
