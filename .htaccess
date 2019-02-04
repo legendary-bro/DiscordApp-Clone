@@ -4,7 +4,9 @@ ErrorDocument 404 /themes/discord/templates/404/index.php
 RewriteRule ^api/v6/experiments/?$ /api/experiments.php [NC,L]
 RewriteRule ^api/v6/experiments/?$ /api/experiments.php [NC,L]
 RewriteRule ^api/v6/auth/login/?$ /api/login/logando.php [NC,L]
+RewriteRule ^api/v6/gateway/?$ /api/login/gateway.php [NC,L]
 RewriteRule ^login/?$ /themes/discord/templates/home/login.php [NC,L]
 RewriteRule ^register/?$ /themes/discord/templates/home/register.php [NC,L]
 RewriteRule ^app/?$ /themes/discord/templates/dashboard/dash.php [NC,L]
+RewriteRule ^activity/?$ /themes/discord/templates/dashboard/dash.php [NC,L]
 </IfModule>

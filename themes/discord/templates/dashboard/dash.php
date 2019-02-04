@@ -27,8 +27,8 @@
 Pressione Shift para enviar diretamente.</pre></div></div></div></div><div class="pictureInPicture-3VocJq theme-dark"></div><div class="theme-dark container-wrYOxa"></div></div></div><div class="tooltips-FhwIyl"></div><div class="theme-dark popouts-3dRSmE"></div><div class="theme-dark"></div></div><script nonce="">window.__OVERLAY__ = /overlay/.test(location.pathname)</script><script nonce="">window.GLOBAL_ENV = {
        API_ENDPOINT: '//201.67.221.160:555/api',
       WEBAPP_ENDPOINT: '//201.67.221.160:555',
-      CDN_HOST: 'cdn.201.67.221.160:555',
-      ASSET_ENDPOINT: 'https://201.67.221.160:555',
+      CDN_HOST: 'cdn.discordapp.com',
+      ASSET_ENDPOINT: 'http://201.67.221.160:555',
       WIDGET_ENDPOINT: '//201.67.221.160:555/widget',
       INVITE_HOST: '201.67.221.160:555',
       GIFT_CODE_HOST: '201.67.221.160:555.gift',
