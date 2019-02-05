@@ -1,0 +1,3 @@
+<?php
+header('Content-Type: application/json');?>
+{"max_age": 86400, "code": "EEdPW8", "guild": {"verification_level": 0, "features": [], "name": "KAWAY E BRABO", "splash": null, "id": "542131558417432596", "icon": null}, "created_at": "2019-02-05T00:22:06.954246+00:00", "temporary": false, "uses": 0, "max_uses": 0, "inviter": {"username": "ABADDON", "discriminator": "4975", "id": "353438038539370497", "avatar": "1eff6265716e88f3fa6e9d2f32ce26c6"}, "channel": {"type": 0, "id": "542131558417432598", "name": "geral"}}
