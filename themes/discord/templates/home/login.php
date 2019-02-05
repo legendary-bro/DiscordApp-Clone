@@ -19,7 +19,7 @@ $domain = '201.67.147.155:555';
     <!-- endsection -->
 
     <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/lcbhdgefieegnkbopmgklhlpjjdgmbog">
-<link rel="stylesheet" href="assets/css/style.css" ><link rel="stylesheet" href="assets/css/discord.css"><link rel="icon" href="/assets/07dca80a102d4149e9736d4b162cff6f.ico">    <!-- section:title -->
+<link rel="stylesheet" href="assets/css/style.css"><link rel="stylesheet" href="assets/css/discord.css"><link rel="icon" href="/assets/07dca80a102d4149e9736d4b162cff6f.ico">    <!-- section:title -->
     <title>Discord</title>
     <!-- endsection -->
   <script charset="utf-8" src="/assets/7edb0c7aa13ce091ede5.js"></script><script charset="utf-8" src="/assets/41bfaf25035e29f02dec.js"></script><script charset="utf-8" src="/assets/d29b96bb9274d3ab36fb.js"></script><script charset="utf-8" src="/assets/ddcaf6611a4a052605dd.js"></script><script charset="utf-8" src="/assets/f505c1f1474590730c2a.js"></script><script charset="utf-8" src="/assets/522c96ec50ed902dc5a8.js"></script><script charset="utf-8" src="/assets/9cac5309c71925d16755.js"></script><script charset="utf-8" src="/assets/66e2923f833ea0e11a7f.js"></script></head>

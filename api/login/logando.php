@@ -40,6 +40,10 @@ else{
 			header("HTTP/1.1 400 Bad Request");
 			echo '{"password": ["Senha incorreta!"]}';
 		}
+		else if($answer == '{"captcha_key": ["captcha-required"]}'){
+			header("HTTP/1.1 400 Bad Request");
+			echo '{"captcha_key": ["captcha-required"]}';
+		}
 		else{
 		echo $answer;
 		}
