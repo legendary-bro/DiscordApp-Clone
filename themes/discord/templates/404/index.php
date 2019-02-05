@@ -1,5 +1,5 @@
 <?php
-$domain = '201.67.221.160:555';
+$domain = '201.67.147.155:555';
 ?>
 <!DOCTYPE html><html lang="pt-BR">
 <head>

@@ -1,5 +1,5 @@
 <?php
-$domain = '201.67.221.160:555';
+$domain = '201.67.147.155:555';
 ?>
 <html lang="pt-BR" style="font-size: 100%" data-react-helmet="lang,style"><head>
     <meta charset="utf-8">
