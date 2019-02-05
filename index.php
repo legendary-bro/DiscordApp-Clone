@@ -8,7 +8,7 @@ $arc = null;
 
 if(empty($_COOKIE['iduser'])){
 	$page = 'home';
-	$arc = 'login';
+	$arc = 'home';
 }
 
 $template = 'themes/' . $theme . '/templates/' . $page . '/' . $arc . '.php';
