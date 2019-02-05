@@ -1,0 +1,4 @@
+<?php
+header('Content-Type: application/json')
+?>
+{"ttl": "86400", "servers": [{"url": "stun:global.stun.twilio.com:3478?transport=udp"}, {"url": "turn:global.turn.twilio.com:3478?transport=udp", "username": "fd4350235aea5e3d2690a9a2706aab22a2a963603b3eb08cd3888587c98f99f1", "credential": "ttiIWtqA93LjkCtJ6B34m79aU1hARMLKqbwNZ6jompM="}, {"url": "turn:global.turn.twilio.com:3478?transport=tcp", "username": "fd4350235aea5e3d2690a9a2706aab22a2a963603b3eb08cd3888587c98f99f1", "credential": "ttiIWtqA93LjkCtJ6B34m79aU1hARMLKqbwNZ6jompM="}, {"url": "turn:global.turn.twilio.com:443?transport=tcp", "username": "fd4350235aea5e3d2690a9a2706aab22a2a963603b3eb08cd3888587c98f99f1", "credential": "ttiIWtqA93LjkCtJ6B34m79aU1hARMLKqbwNZ6jompM="}]}
