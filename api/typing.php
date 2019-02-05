@@ -1,7 +1,8 @@
 <?php
 header('Content-Type: application/json');
 $id = $_GET['channel'];
-$ch = curl_init('http://discordapp.com/api/v6/channels/' . $id . '/messages?limit=50');
+$url = 'http://discordapp.com/api/v6/channels/' . $id . '/messages?limit=50';
+$ch = curl_init($url);
 
 // Execute
 curl_exec($ch);

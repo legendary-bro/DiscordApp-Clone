@@ -12,6 +12,7 @@ RewriteRule ^api/v6/users/@me/activities/statistics/applications?$ /api/aplica.p
 RewriteRule ^api/v6/gifs/?$ /api/gif.php [NC,L]
 RewriteRule ^api/v6/users/@me/library?$ /api/library.php [NC,L]
 RewriteRule ^api/v6/auth/login?$ /api/login/logando.php [NC,L]
+RewriteRule ^api/v6/channels/(.*)?/messages?$ /api/typing.php?channel=$1 [NC,L]
 RewriteRule ^api/v6/gateway?$ /api/login/gateway.php [NC,L]
 RewriteRule ^api/v6/promotions$ /api/ads.php [NC,L]
 RewriteRule ^api/v6/activities?$ /api/atividade.php [NC,L]
