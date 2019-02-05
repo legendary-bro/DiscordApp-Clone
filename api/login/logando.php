@@ -36,8 +36,13 @@ else{
 		);                                                                                                                   
 
 		$answer  = curl_exec($ch);
-
+		if($answer == '{"password": ["Password does not match."]}'){
+			header("HTTP/1.1 400 Bad Request");
+			echo '{"password": ["Senha incorreta!"]}';
+		}
+		else{
 		echo $answer;
+		}
 
 		if (curl_error($ch)) {
 		    echo curl_error($ch);
