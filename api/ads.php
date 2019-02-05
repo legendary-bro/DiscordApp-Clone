@@ -1,6 +1,9 @@
 <?php
-header('Content-Type: application/json');
-if(isset($discord['ads'])){
-	return true;
-	echo $show_ads;
-}
+header('Content-Type: application/json');     
+$ch = curl_init('https://discordapp.com/api/v6/promotions');
+
+// Execute
+curl_exec($ch);
+$answer  = curl_exec($ch);
+echo $answer;
+?>

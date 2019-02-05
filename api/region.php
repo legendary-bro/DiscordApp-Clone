@@ -1,7 +1,6 @@
 <?php
 header('Content-Type: application/json');
-$id = $_GET['channel'];
-$ch = curl_init('http://discordapp.com/api/v6/channels/' . $id . '/messages?limit=50');
+$ch = curl_init('https://discordapp.com/api/v6/voice/regions');
 
 // Execute
 curl_exec($ch);
