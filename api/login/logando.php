@@ -19,8 +19,6 @@ else{
 	}
 	else if(isset($email) && isset($senha)){
 		header("HTTP/1.1 200 OK");
-		// $token = 'NDc3NTEwOTA3MTg3MDM2MTgw.DzsuAg.KB01HjRHEguGlUd8omq5JYxVjks';
-		// echo '{"token": "' . $token . '"}';
 		$data = array("email" => $email, "password" => $senha);                                                                    
 		$data_string = json_encode($data);                                                                                   
 		$ch = curl_init('https://discordapp.com/api/v6/auth/login');                                                                     
