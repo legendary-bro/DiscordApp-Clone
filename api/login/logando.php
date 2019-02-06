@@ -4,6 +4,7 @@ $postdata = file_get_contents("php://input");
 $obj = json_decode($postdata);
 $email = $obj->{'email'};
 $senha =$obj->{'password'};
+$captcha_key = $obj->{'captcha_key'};
 if(empty($email)){
 	header("HTTP/1.1 400 Bad Request");
 	echo '{"email": ["Este campo \u00e9 obrigat\u00f3rio"], "password": ["Este campo \u00e9 obrigat\u00f3rio"]}';
@@ -21,7 +22,7 @@ else{
 		header("HTTP/1.1 200 OK");
 		// $token = 'NDc3NTEwOTA3MTg3MDM2MTgw.DzsuAg.KB01HjRHEguGlUd8omq5JYxVjks';
 		// echo '{"token": "' . $token . '"}';
-		$data = array("email" => $email, "password" => $senha);                                                                    
+		$data = array("email" => $email, "password" => $senha, "captcha_key" => $captcha_key);                                                                    
 		$data_string = json_encode($data);                                                                                   
 		$ch = curl_init('https://discordapp.com/api/v6/auth/login');                                                                     
 		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");                                                                     

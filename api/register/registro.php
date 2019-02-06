@@ -5,11 +5,12 @@ $obj = json_decode($postdata);
 $email = $obj->{'email'};
 $senha =$obj->{'password'};
 $username =$obj->{'username'};
+$captcha_key = $obj->{'captcha_key'};
 
 		header("HTTP/1.1 200 OK");
 		// $token = 'NDc3NTEwOTA3MTg3MDM2MTgw.DzsuAg.KB01HjRHEguGlUd8omq5JYxVjks';
 		// echo '{"token": "' . $token . '"}';
-		$data = array("email" => $email, "password" => $senha, "username" => $username);                                                                    
+		$data = array("email" => $email, "password" => $senha, "username" => $username,"captcha_key" => $captcha_key);                                                                    
 		$data_string = json_encode($data);                                                                                   
 
 		$ch = curl_init('https://discordapp.com/api/v6/auth/register');                                                                     
