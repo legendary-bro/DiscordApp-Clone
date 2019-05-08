@@ -1,5 +1,5 @@
 # DiscordApp-Clone
-DiscordApp Clone
+DiscordApp Clone (will see by eklavya)
 
 Created by Kaway404 for studing
 
